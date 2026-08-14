@@ -1,0 +1,57 @@
+name: 不具合報告
+description: 配布アプリで発生した不具合を報告します
+title: "[不具合] "
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: 対象アプリ
+      options:
+        - ChatSwitch
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: アプリのバージョン
+      placeholder: 例 0.1.0-beta.1
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOSのバージョン
+    validations:
+      required: true
+  - type: input
+    id: codex-version
+    attributes:
+      label: CodexデスクトップアプリまたはCLIのバージョン
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 起きたこと
+      description: Webhook URL、チャット本文、作業フォルダのパスなどは記載しないでください。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待していた動作
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 投稿内容の確認
+      options:
+        - label: 秘密情報、個人情報、Webhook URL、チャット本文、作業パスを含めていません。
+          required: true

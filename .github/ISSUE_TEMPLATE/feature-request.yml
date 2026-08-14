@@ -1,0 +1,32 @@
+name: 機能要望
+description: 配布アプリへの機能追加や改善を提案します
+title: "[要望] "
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: 対象アプリ
+      options:
+        - ChatSwitch
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: 希望する機能や改善
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 解決したいこと
+      description: どのような場面で困っているかを記載してください。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 投稿内容の確認
+      options:
+        - label: 秘密情報、個人情報、Webhook URL、チャット本文、作業パスを含めていません。
+          required: true
