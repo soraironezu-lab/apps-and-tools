@@ -47,6 +47,6 @@ ChatSwitchの最初の公開β版です。macOS上でCodexの複数チャット�
 - ChatSwitch内の通知設定とmacOSの通知許可は別です。初回起動時に許可ダイアログが表示されない場合があるため、通知が届かないときは「システム設定 → 通知 → ChatSwitch」を確認してください。許可がオフでもアプリ内の一覧と未確認状態は更新されます。
 - VoiceOverでの主要操作はこのβ版では対応していません。VoiceOver利用が必要な方には、現時点では利用をおすすめしません。
 
-このβ版には、配布リポジトリの`chatswitch/TERMS.md`に記載する個人利用・評価目的の利用条件が適用されます。
+このβ版には、配布リポジトリの[ChatSwitch β版利用条件](https://github.com/soraironezu-lab/apps-and-tools/blob/main/chatswitch/TERMS.md)に記載する個人利用・評価目的の利用条件が適用されます。
 
-不具合や要望はIssuesへお願いします。Webhook URL、チャット本文、作業パスなどの個人情報は投稿しないでください。
+不具合や要望は[Issues](https://github.com/soraironezu-lab/apps-and-tools/issues)へお願いします。Webhook URL、チャット本文、作業パスなどの個人情報は投稿しないでください。
